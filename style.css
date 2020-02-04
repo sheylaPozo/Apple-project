@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 534px;
+  background-image: url('../images/your_verse_hero.jpg');
+  background-size: 1440px 1315px;
+  background-position-y: 534px;
+  width: 100%;
+}
+
+nav ul li a {
+  color: white;
+}
+
+.header-text a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 114px;
+}
+
+.nav-item {
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(#8b8b8b, #656565 50%, #787878 100%);
+  border: 1px solid #7d7d7d;
+  height: 36px;
+  width: 106px;
+  border-right: 1px solid black;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+}
+
+.nav-item:hover {
+  background: linear-gradient(#555, #404040 50%, #545454 100%);
+}
+
+.apple-logo-btn {
+  display: inline-block;
+  margin-top: 5px;
+  width: 23px;
+  height: 23px;
+  background-image: url('https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png');
+  background-position: 50% -4px;
+}
+
+.search-box-border {
+  display: inline-block;
+  margin-top: 6px;
+  width: 91px;
+  height: 20px;
+  background: linear-gradient(#4a4a4a, #898989);
+  text-align: center;
+  border-radius: 24px;
+}
+
+.search-box-container {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 0 0 2px;
+  color: inherit;
+  margin-top: 1px;
+  background: linear-gradient(#888 50%, #777 100%);
+  border-radius: 23px;
+  width: 88px;
+  height: 23px;
+}
+
+.search-box-icon {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4KPGcgZmlsbC1vcGFjaXR5PSIuNSI%2BCgk8cG9seWdvbiBwb2ludHM9IjkuMjA3LDcuMTI2IDcuNzkzLDguNTQxIDExLjc5MywxMi41NDEgMTMuMjA3LDExLjEyNiIgLz4KCTxwYXRoIGQ9Ik01LjkxNywzYzEuNjA4LDAsMi45MTcsMS4zMDgsMi45MTcsMi45MTdTNy41MjUsOC44MzMsNS45MTcsOC44MzNTMyw3LjUyNSwzLDUuOTE3UzQuMzA4LDMsNS45MTcsMyBNNS45MTcsMQoJCUMzLjIwMSwxLDEsMy4yMDEsMSw1LjkxN3MyLjIwMSw0LjkxNyw0LjkxNyw0LjkxN3M0LjkxNy0yLjIwMSw0LjkxNy00LjkxN0MxMC44MzMsMy4yMDEsOC42MzIsMSw1LjkxNywxTDUuOTE3LDF6IiAvPgo8L2c%2BCjxnPgoJPHBvbHlnb24gZmlsbD0iI2ZmZiIgcG9pbnRzPSI5LjIwNyw2LjEyNiA3Ljc5Myw3LjU0MSAxMS43OTMsMTEuNTQxIDEzLjIwNywxMC4xMjYiIC8%2BCgk8cGF0aCBmaWxsPSIjZmZmIiBkPSJNNS45MTcsMmMxLjYwOCwwLDIuOTE3LDEuMzA4LDIuOTE3LDIuOTE3UzcuNTI1LDcuODMzLDUuOTE3LDcuODMzUzMsNi41MjUsMyw0LjkxN1M0LjMwOCwyLDUuOTE3LDIKCQkgTTUuOTE3LDBDMy4yMDEsMCwxLDIuMjAxLDEsNC45MTdzMi4yMDEsNC45MTcsNC45MTcsNC45MTdzNC45MTctMi4yMDEsNC45MTctNC45MTdDMTAuODMzLDIuMjAxLDguNjMyLDAsNS45MTcsMEw1LjkxNywweiIgLz4KPC9nPgo8L3N2Zz4K');
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  float: left;
+}
+
+.search-box {
+  width: 72px;
+  height: 14px;
+  padding-left: 3px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  float: right;
+}
+
+.search-box:focus {
+  outline: none;
+}
+
+.leftmost-nav-item {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.rightmost-nav-item {
+  width: 132px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-right: none;
+}
+
+.rightmost-nav-item:hover {
+  cursor: auto;
+  background: linear-gradient(#8b8b8b, #656565 50%, #787878 100%);
+}
+
+#content {
+  width: 70%;
+  height: 900px;
+}
+
+#jumbotron {
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#hero {
+  height: inherit;
+  background-image: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
+  background-position: 0 600px;
+  background-size: cover;
+  width: 100%;
+}
+
+#hero-texts {
+  width: 50%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#hero-texts h1 {
+  margin-bottom: 10px;
+  font-size: 3em;
+  font-weight: normal;
+}
+
+#hero-texts h4 {
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 1.2em;
+  line-height: 30px;
+}
+
+#menu {
+  width: 70%;
+  padding-top: 100px;
+}
+
+#menu ul {
+  height: 40px;
+  border-radius: 10px;
+}
+
+#products {
+  width: 100%;
+  display: flex;
+}
+
+footer div {
+  margin: 10px;
+}
+
+.products {
+  width: 100%;
+  height: 200px;
+}
+
+footer {
+  width: 90%;
+  height: 80px;
+  display: flex;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+  padding-right: 10px;
+  border-right: 1px ridge gray;
+}
+
+.font-12 {
+  font-size: 0.7em;
+}
+
+.flex {
+  display: flex;
+}
+
+.black-text {
+  color: black;
+}
