@@ -13,7 +13,7 @@ solo project N°1
 
 ### Live Demo
 
-[NYT-clone](https://github.com/Laguna1/Clone-New-York-Tiimes)
+[Apple-project](https://raw.githack.com/SheylaPozo/Apple-project/features/index.html)
 
 ---
 
