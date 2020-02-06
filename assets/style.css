@@ -1,3 +1,7 @@
+a {
+  color: #08c !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +20,35 @@
 
 .text-1 {
   color: white;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.hero-text-zero {
+  font-weight: lighter !important;
+  font-size: 4em;
+  margin-top: 1em;
+}
+
+.hero-text-one {
+  font-weight: lighter !important;
+  font-size: 2em;
+  margin-top: .5em;
+}
+
+.hero-text-two {
+  font-weight: lighter !important;
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+
+.white-text {
+  color: white !important;
+  text-decoration: none;
+}
+
+.white-text:hover {
+  text-decoration: underline;
 }
 
 header {
@@ -30,7 +63,7 @@ header {
 }
 
 nav ul li a {
-  color: white;
+  color: #08c !important;
 }
 
 .header-text a {
@@ -134,7 +167,7 @@ nav ul li a {
 }
 
 #content {
-  width: 70%;
+  width: 100%;
   height: 900px;
 }
 
@@ -154,22 +187,9 @@ nav ul li a {
 }
 
 #texts1 {
-  width: 50%;
+  width: 80%;
   text-align: center;
   margin-top: 100px;
-}
-
-#texts1 h1 {
-  margin-bottom: 10px;
-  font-size: 3em;
-  font-weight: normal;
-}
-
-#texts1 h4 {
-  margin-bottom: 15px;
-  font-weight: normal;
-  font-size: 1.2em;
-  line-height: 30px;
 }
 
 #menu {
@@ -197,7 +217,7 @@ footer div {
 }
 
 footer {
-  width: 90%;
+  width: 100%;
   height: 80px;
   display: flex;
 }
@@ -215,6 +235,7 @@ nav ul li {
 
 .font-x {
   font-size: 0.7em;
+  color: black;
 }
 
 .flexie {
@@ -222,5 +243,9 @@ nav ul li {
 }
 
 .text2 {
+  color: #08c !important;
+}
+
+.black-x {
   color: black;
 }

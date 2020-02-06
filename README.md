@@ -1,6 +1,6 @@
 # Apple-project - Building with Backgrounds and Gradients
 
-solo project N°1
+This project is about building with backgrounds and gradients.
 
 ## BUILT WITH
 
@@ -9,7 +9,7 @@ solo project N°1
 
 ---
 
-![Example](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+![Example](http://archive.li/UW4oR)
 
 ### Live Demo
 
