@@ -9,7 +9,7 @@ This project is about building with backgrounds and gradients.
 
 ---
 
-![Example](http://archive.li/UW4oR)
+[Example](http://archive.li/UW4oR)
 
 ### Live Demo
 

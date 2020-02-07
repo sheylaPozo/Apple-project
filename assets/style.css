@@ -1,17 +1,19 @@
 a {
   color: #08c !important;
+  text-decoration: none;
 }
-
+a:hover {
+  text-decoration: underline;
+}
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 .bg-black {
@@ -33,7 +35,7 @@ a {
 .hero-text-one {
   font-weight: lighter !important;
   font-size: 2em;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .hero-text-two {
@@ -55,15 +57,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 534px;
-  background-image: url("hiking.jpg");
-  background-size: 1440px 1315px;
-  background-position-y: 534px;
-  width: 100%;
-}
-
-nav ul li a {
-  color: #08c !important;
 }
 
 .header-text a {
@@ -101,7 +94,7 @@ nav ul li a {
   margin-top: 5px;
   width: 23px;
   height: 23px;
-  background-image: url("https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png");
+  background-image: url('https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png');
   background-position: 50% -4px;
 }
 
@@ -128,7 +121,7 @@ nav ul li a {
 }
 
 .search-box-icon {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4KPGcgZmlsbC1vcGFjaXR5PSIuNSI%2BCgk8cG9seWdvbiBwb2ludHM9IjkuMjA3LDcuMTI2IDcuNzkzLDguNTQxIDExLjc5MywxMi41NDEgMTMuMjA3LDExLjEyNiIgLz4KCTxwYXRoIGQ9Ik01LjkxNywzYzEuNjA4LDAsMi45MTcsMS4zMDgsMi45MTcsMi45MTdTNy41MjUsOC44MzMsNS45MTcsOC44MzNTMyw3LjUyNSwzLDUuOTE3UzQuMzA4LDMsNS45MTcsMyBNNS45MTcsMQoJCUMzLjIwMSwxLDEsMy4yMDEsMSw1LjkxN3MyLjIwMSw0LjkxNyw0LjkxNyw0LjkxN3M0LjkxNy0yLjIwMSw0LjkxNy00LjkxN0MxMC44MzMsMy4yMDEsOC42MzIsMSw1LjkxNywxTDUuOTE3LDF6IiAvPgo8L2c%2BCjxnPgoJPHBvbHlnb24gZmlsbD0iI2ZmZiIgcG9pbnRzPSI5LjIwNyw2LjEyNiA3Ljc5Myw3LjU0MSAxMS43OTMsMTEuNTQxIDEzLjIwNywxMC4xMjYiIC8%2BCgk8cGF0aCBmaWxsPSIjZmZmIiBkPSJNNS45MTcsMmMxLjYwOCwwLDIuOTE3LDEuMzA4LDIuOTE3LDIuOTE3UzcuNTI1LDcuODMzLDUuOTE3LDcuODMzUzMsNi41MjUsMyw0LjkxN1M0LjMwOCwyLDUuOTE3LDIKCQkgTTUuOTE3LDBDMy4yMDEsMCwxLDIuMjAxLDEsNC45MTdzMi4yMDEsNC45MTcsNC45MTcsNC45MTdzNC45MTctMi4yMDEsNC45MTctNC45MTdDMTAuODMzLDIuMjAxLDguNjMyLDAsNS45MTcsMEw1LjkxNywweiIgLz4KPC9nPgo8L3N2Zz4K");
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4KPGcgZmlsbC1vcGFjaXR5PSIuNSI%2BCgk8cG9seWdvbiBwb2ludHM9IjkuMjA3LDcuMTI2IDcuNzkzLDguNTQxIDExLjc5MywxMi41NDEgMTMuMjA3LDExLjEyNiIgLz4KCTxwYXRoIGQ9Ik01LjkxNywzYzEuNjA4LDAsMi45MTcsMS4zMDgsMi45MTcsMi45MTdTNy41MjUsOC44MzMsNS45MTcsOC44MzNTMyw3LjUyNSwzLDUuOTE3UzQuMzA4LDMsNS45MTcsMyBNNS45MTcsMQoJCUMzLjIwMSwxLDEsMy4yMDEsMSw1LjkxN3MyLjIwMSw0LjkxNyw0LjkxNyw0LjkxN3M0LjkxNy0yLjIwMSw0LjkxNy00LjkxN0MxMC44MzMsMy4yMDEsOC42MzIsMSw1LjkxNywxTDUuOTE3LDF6IiAvPgo8L2c%2BCjxnPgoJPHBvbHlnb24gZmlsbD0iI2ZmZiIgcG9pbnRzPSI5LjIwNyw2LjEyNiA3Ljc5Myw3LjU0MSAxMS43OTMsMTEuNTQxIDEzLjIwNywxMC4xMjYiIC8%2BCgk8cGF0aCBmaWxsPSIjZmZmIiBkPSJNNS45MTcsMmMxLjYwOCwwLDIuOTE3LDEuMzA4LDIuOTE3LDIuOTE3UzcuNTI1LDcuODMzLDUuOTE3LDcuODMzUzMsNi41MjUsMyw0LjkxN1M0LjMwOCwyLDUuOTE3LDIKCQkgTTUuOTE3LDBDMy4yMDEsMCwxLDIuMjAxLDEsNC45MTdzMi4yMDEsNC45MTcsNC45MTcsNC45MTdzNC45MTctMi4yMDEsNC45MTctNC45MTdDMTAuODMzLDIuMjAxLDguNjMyLDAsNS45MTcsMEw1LjkxNywweiIgLz4KPC9nPgo8L3N2Zz4K');
   width: 14px;
   height: 14px;
   vertical-align: middle;
@@ -180,7 +173,7 @@ nav ul li a {
 
 #main-nav1 {
   height: inherit;
-  background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-image: url('https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
   background-position: 0 600px;
   background-size: cover;
   width: 100%;
@@ -207,45 +200,52 @@ nav ul li a {
   display: flex;
 }
 
-footer div {
-  margin: 10px;
-}
-
 .products {
   width: 100%;
-  height: 200px;
+  height: 100%;
 }
 
 footer {
   width: 100%;
   height: 80px;
   display: flex;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: center;
+}
+.footiers {
+  display: flex;
+  justify-content: space-around;
+}
+.footie {
+  padding-top: 0.3rem;
+  margin-left: 80px;
 }
 
-.mate {
-  margin-top: 10px;
+.footie ul {
+  padding-left: 0;
+}
+.footie2 {
+  margin-left: 15px;
+}
+
+footer div {
+  margin-top: 1.1rem;
+  margin-bottom: 1.1rem;
+  font-size: 10px;
+}
+footer div li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.1rem 0.35rem 0.1rem 0.35rem;
 }
 
 nav ul li {
   display: inline-block;
-  margin-left: 10px;
-  padding-right: 10px;
-  border-right: 1px ridge gray;
-}
-
-.font-x {
-  font-size: 0.7em;
-  color: black;
-}
-
-.flexie {
-  display: flex;
-}
-
-.text2 {
-  color: #08c !important;
-}
-
-.black-x {
-  color: black;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
 }
