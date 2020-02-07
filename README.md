@@ -13,7 +13,7 @@ This project is about building with backgrounds and gradients.
 
 ### Live Demo
 
-[Apple-project](https://raw.githack.com/SheylaPozo/Apple-project/features/index.html)
+[Apple-project](https://sheylapozo.github.io/)
 
 ---
 
