@@ -2,9 +2,11 @@ a {
   color: #08c !important;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 * {
   margin: 0px;
   padding: 0;
@@ -215,10 +217,12 @@ footer {
   align-items: stretch;
   align-content: center;
 }
+
 .footiers {
   display: flex;
   justify-content: space-around;
 }
+
 .footie {
   padding-top: 0.3rem;
   margin-left: 80px;
@@ -227,6 +231,7 @@ footer {
 .footie ul {
   padding-left: 0;
 }
+
 .footie2 {
   margin-left: 15px;
 }
@@ -236,6 +241,7 @@ footer div {
   margin-bottom: 1.1rem;
   font-size: 10px;
 }
+
 footer div li {
   list-style: none;
   display: inline-block;
