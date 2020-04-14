@@ -1,18 +1,16 @@
 # Apple-project - Building with Backgrounds and Gradients
 
 This project is about building with backgrounds and gradients.
-
----
-*💛 Image Preview 💛 *
-![DEMO](https://user-images.githubusercontent.com/54015740/79277341-3a220880-7e6f-11ea-9531-08327a981102.png)
----
 ## BUILT WITH
 
 - HTML
 - CSS
+---
+*💛 Image Preview 💛 *
+![DEMO](https://user-images.githubusercontent.com/54015740/79277341-3a220880-7e6f-11ea-9531-08327a981102.png)
 
 ---
-
+### Sample
 [Example](http://archive.li/UW4oR)
 
 ### Live Demo
