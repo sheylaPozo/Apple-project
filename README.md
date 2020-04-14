@@ -29,7 +29,7 @@ This project is about building with backgrounds and gradients.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/sheylaPozo/Newsweek/issues).
+Feel free to check the [issues page](https://github.com/sheylaPozo/Apple-project/issues).
 
 ## Show your support
 
